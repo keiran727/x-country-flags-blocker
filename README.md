@@ -9,11 +9,9 @@ Note: uses X’s own “About this account” data only. Nothing leaves your bro
 # Install
 
 
-1. Install a userscript manager:
-   - Chrome / Edge / Brave — [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/)
-   - Firefox > same ones, just grab them from the Firefox add-ons site
-2. On Chrome/Edge you will probably need to turn on **Allow User Scripts** (or Developer mode) for the extension, otherwise it does nothing. Go to `chrome://extensions` / `edge://extensions` and enable it
-3. [Download the script](./x-country-flags-blocker.user.js) to install. If you already have a userscript manager, just click the link and it should offer to install
+1. Install a userscript manager — [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/) (works on Chrome, Edge, Brave and Firefox)
+2. On Chrome/Edge/Brave you will probably need to turn on **Allow User Scripts** (or Developer mode) for the extension, otherwise it does nothing. Go to `chrome://extensions` / `edge://extensions` and enable it
+3. [Download the script](https://github.com/keiran727/x-country-flags-blocker/raw/main/x-country-flags-blocker.user.js) to install. If you already have a userscript manager, just click the link and it should offer to install
 
 After installing, refresh X. The first time it might ask you to open any profile > click “Joined …” > open “About this account” once so it can grab the current query ID.
 
